@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+<!-- my CSS -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <title>BELAJAR WEBSITE</title>
+    </head>
+
+    <body id="home" class="scrollspy">
+      <!-- nav -->
+      <div class="navbar-fixed">
+        <nav class="grey darken-3">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="#home" class="brand-logo">MNF</a>
+              <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+               
+                <li><a href="#services">Tugas</a></li>
+                <li><a href="#contact">Kontak Saya</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+
+<!-- Sidenav -->
+<ul class="sidenav" id="mobile-nav">
+  
+  <li><a href="">Tugas</a></li>
+  <li><a href="">Kontak Saya</a></li> 
+</ul>
+
+
+<!-- slider -->
+<div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/slider/24.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3 class="light grey-text text-lighten-4">Mappatunru Production</h3>
+          <h5 class="light grey-text text-lighten-4">Salamaki To Pada Salama</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/slider/23.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3 class="light grey-text text-darken-4">Mappatunru Production</h3>
+          <h5 class="light grey-text text-darken-4">Taro Ada Taro Gau</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/slider/28.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3 class="light white-text text-darken-4">Mappatunru Production</h3>
+          <h5 class="light white-text text-darken-4">Makkiade' Na Malempu'</h5>
+        </div>
+      </li>
+    </ul>
+</div>
+
+
+
+    <!-- Servis -->
+    <section id="services" class="services grey lighten-3 scrollspy">
+      <div class="container">
+        <div class="row">
+          <h3 class="light center grey-text text-darken-3">Tugas</h3>
+          <div class="col m12 s12">
+            <div class="card-panel center ">
+              <i class="material-icons medium">laptop_windows</i>
+              <h5>Tugas Pertemuan 2 TBO</h5>
+              <p>Tulisan Mengenai "Notasi Big-O" (Pengukuran Kompleksitas Algoritma)</p>
+              <h5 class=" grey-text text-darken-3 left-align">Definisi Notasi Big-O</h5>
+              <p class="left-align">Big-O Notation adalah cara untuk mengkonversi keseluruhan langkah-langkah suatu algoritma kedalam bentuk Aljabar, yaitu dengan menghiraukan konstanta yang lebih kecil dan koefisien yang tidak berdampak besar terhadap keseluruhan kompleksitas permasalahan yang diselesaikan oleh algoritma tersebut.</p>
+              <p class="left-align">Notasi O Besar – biasa disebut juga Notasi Landau (Landau Notation) atau Notasi Asimptotik (Asymptotic Notation) – adalah notasi matematika yang digunakan untuk menggambarkan sifat suatu fungsi asimptotik. Hal ini dilakukan untuk mengamati sifat/kecenderungan suatu fungsi untuk masukan (input) yang sangat besar/sangat kecil dengan cara yang simpel namun teliti sehingga dapat dilakukan perbandingan dengan fungsi-fungsi yang lain Lebih jauh lagi, simbol O digunakan untuk mengambarkan sebuah batas atas dari asimptotik suatu jarak/ukuran dari sebuah fungsi untuk fungsi yang lebih simpel. Terdapat juga simbol-simbol seperti o, O,?, dan T untuk batas-batas atas, bawah, dan rata-rata.</p>
+
+              <h5 class=" grey-text text-darken-3 left-align">Kegunaan dan Penggunaan Notasi Big-O</h5>
+              <p class="left-align">1. Kegunaan Notasi Big-O</p>
+              <p class="left-align">Notasi Big-O digunakan untuk mengukur tingkat kompleksitas suatu algoritma.</p>
+              <p class="left-align">2. Penggunaan Notasi Big-O</p> 
+              <p class="left-align">Infinite asymptotic : Untuk penggunaan pada infinite asymptotic biasanya terdapat dalam bidang ilmu komputer untuk menganalisa kompleksitas dari suatu algoritma. Misal adalah waktu (di mana waktu adalah indikator kemangkusan dan efisiensi dari suatu algoritma) yang diperlukan algoritma untuk penyelesaian masalah</p>
+              <p class="left-align">Infinitesimal asymptotic : Penggunaan pada infinitesimal asymptotic dilakukan untuk menggambarkan kesalahan dalam sebuah aproksimasi dalam fungsi matematika.</p>    
+
+             <h5 class=" grey-text text-darken-3 left-align">Contoh Algoritma Notasi Big-O</h5>
+             <p class="left-align">O(1): konstan. Algoritma dengan O-Besar O(1) dieksekusi di kecepatan yang sama tidak tergantung pada data masukannya. Sebagai contoh, algoritma yang selalu menghasilkan nilai yang sama apapun nilai masukannya dapat dipandang sebagai algoritma dengan efisiensi O(1). Contoh lain adalah algoritma untuk menentukan suatu bilangan genap atau ganjil, look table atau hash table adalah konstan ukuran tabel tetap.</p> 
+             <p class="left-align">O(n): linear. Pencarian linear untuk menemukan suatu elemen dalam suatu array tak urut dengan n elemen. Algoritma tipe ini hanya memerlukan satu putaran untuk seluruh array. Keadaan terbaik terjadi jika yang dicari terletak di posisi pertama sehingga O(1). Keadaan terjelek terjadi jika elemen yang dicari terletak di posisi terakhir atau tidak ada dalam array. Untuk itu algoritma harus menelusuri seluruh array untuk mencek setiap elemen dalam array yang berarti O(n).</p>
+             <p class="left-align">O(2n ): eksponensial. Efisiensi non-polinomial yang paling penting adalah exponential time. Banyak masalah penting yang hanya dapat diselesaikan oleh algoritma dengan efisiensi seperti ini. Salah satu contohnya adalah faktorisasi bilangan sangat besar yang disajikan dalam notasi biner.</p>
+             <p class="left-align">O(n log n): loglinear, quasilinear atau linearithmik. Algoritma pengurutan yang baik kerap mempunyai order O(n log n). Contoh algoritma dengan efisiensi ini adalah algoritma yang tergabung dalam kelompok devide and conquer (DAC) seperti quick sort (best dan average case) dan merge sort.</p> 
+             <p class="left-align">O(n2 ): kuadratik. Cukup efisien karena masih tetap dalam rentang waktu polinomial. Contoh biasanya ada dalam kelompok pengurutan data seperti selection sort, insertion sort, quick sort (worst case), shell sort, bubble sort (worst case atau implementasi naif).</p>    
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    
+<!-- Kontak Saya -->
+        <section id="contact" class="contact grey lighten-3 scrollspy">
+          <div class="container">
+            <h3 class="light grey-text text-darken-3 center">Kontak Saya</h3>
+            <div class="row">
+              <div class="col m6 s12 ">
+              <div class="card-panel grey darken-2 center white-text">
+                <i class="material-icons medium">email</i>
+                <h5>Email</h5>
+                <p>naufal77febriantama@gmail.com</p>
+
+              </div>
+              <ul class="collection with-header">
+                <li class="collection-header"><h5>INFO UMUM</h5></li>
+                <li class="collection-item">Muh. Naufal Febriantama</li>
+                <li class="collection-item">D121181021</li>
+                <li class="collection-item">Teknik Informatika</li>
+              </ul>
+              </div>
+              <div class="col m6 s12">
+              <div class="card-panel center ">
+              <img class="activator"src="img/portfolio/instagram.png">
+              <h6><a href="https://www.instagram.com/naufalfebriantama/">Instagram</a></h6>
+              </div>
+              <div class="card-panel center small">
+             <img class="activator" src="img/portfolio/facebook.png">
+              <h6><a href="https://www.facebook.com/naufalfebriantama.alfariz?ref=bookmarks">Facebook</a></h6>
+              </div>
+           
+            </div>
+            
+            </div>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="grey darken-2 white-text center">
+          <p>Teknik Informatika UNHAS. Copyright 2020.</p>
+        </footer>
+
+
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+      <script>
+        const sideNav = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(sideNav);
+
+        const slider =document.querySelectorAll('.slider');
+        M.Slider.init(slider, {
+          indicators: false,
+          height: 500,
+          transition: 600,
+          interval: 3000
+        });
+
+        const parallax = document.querySelectorAll('.parallax');
+        M.Parallax.init(parallax);
+
+        const materialbox = document.querySelectorAll('.materialboxed');
+        M.Materialbox.init(materialbox);
+
+        const scroll = document.querySelectorAll('.scrollspy');
+        M.ScrollSpy.init(scroll, {
+          scrollOffset: 50
+        })
+
+       
+
+       
+      </script>
+
+    </body>
+  </html>
+        
